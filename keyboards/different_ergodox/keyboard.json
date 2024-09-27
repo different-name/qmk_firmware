@@ -4,16 +4,14 @@
     "manufacturer": "Different",
     "bootloader_instructions": "Short RST to GND",
     "tags": ["ortho", "split", "handwired"],
-    "url": "",
+    "url": "https://github.com/different-name/qmk_firmware",
     "development_board": "promicro",
     "diode_direction": "COL2ROW",
     "features": {
         "bootmagic": true,
         "extrakey": true,
         "mousekey": true,
-        "nkro": true,
-        "command": true,
-        "console": true
+        "nkro": true
     },
     "bootmagic": {
         "matrix": [0, 0]
